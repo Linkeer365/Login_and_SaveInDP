@@ -1,3 +1,6 @@
+# 靠，用pycharm搞github好爽啊...
+# https://www.cnblogs.com/feixuelove1009/p/5955332.html
+
 import selenium
 
 from selenium import webdriver
