@@ -505,3 +505,412 @@ JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1601350943124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.97fwFksM6HMv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601350946408	Marionette	INFO	Listening on port 5187
+1601350946443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601350954120	Marionette	INFO	Stopped listening on port 5187
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601350997847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.l5YamGE6TInG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1601351000554	Marionette	INFO	Listening on port 5262
+1601351000633	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601351045892	Marionette	INFO	Stopped listening on port 5262
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601351686910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.z0tTB5FKDD3L"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601351689444	Marionette	INFO	Listening on port 5763
+1601351689664	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12628, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+[Child 12628, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 545
+1601351911127	Marionette	INFO	Stopped listening on port 5763
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601351920581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.3mbjzemDX5M3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601351923139	Marionette	INFO	Listening on port 5845
+1601351923348	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601351982834	Marionette	INFO	Stopped listening on port 5845
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+file" "C:\\temp\\rust_mozprofile.TUIx6baaxiL3"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601351982860	Marionette	INFO	Listening on port 5920
+1601351982998	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601351996487	Marionette	INFO	Stopped listening on port 5920
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601352020653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.gtCWGbuTyoMk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601352023231	Marionette	INFO	Listening on port 6029
+1601352023432	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601352284182	Marionette	INFO	Stopped listening on port 6029
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601352320386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.z5p9sl5IXSAA"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601352322855	Marionette	INFO	Listening on port 6212
+1601352323130	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601352475981	Marionette	INFO	Stopped listening on port 6212
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601352485426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.EyFynuLGUtDK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601352488023	Marionette	INFO	Listening on port 6416
+1601352488206	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601353200470	Marionette	INFO	Stopped listening on port 6416
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601353209734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.IMkHdvlCHr2r"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601353212201	Marionette	INFO	Listening on port 6738
+1601353212505	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601353217110	Marionette	INFO	Stopped listening on port 6738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601353235999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.f0eGVaWKTBa1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601353238425	Marionette	INFO	Listening on port 6808
+1601353238779	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler retJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601353591461	Marionette	INFO	Listening on port 6931
+1601353591674	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601353938367	Marionette	INFO	Stopped listening on port 6931
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601353958370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.vz1jfe1bhPEn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601353960865	Marionette	INFO	Listening on port 7227
+1601353961094	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1601354197240	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.x9dWf1daYTZG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601354199754	Marionette	INFO	Listening on port 7377
+1601354199997	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 661"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:661:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:509:10
+_fetchURLContents@resource://devtools/server/actors/utils/TabSources.js:440:22
+urlContents@resource://devtools/server/actors/utils/TabSources.js:407:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2105:69
+addAllSources@resource://devtools/server/actors/thread.js:1500:14
+onSources@resource://devtools/server/actors/thread.js:1506:10
+onPacket@resource://devtools/server/devtools-server-connection.js:379:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 661, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 661: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601354934315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.fO3IuTKNa3Y4"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601354937108	Marionette	INFO	Listening on port 7661
+1601354937570	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601354969951	Marionette	INFO	Stopped listening on port 7661
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601354929923	Marionette	INFO	Stopped listening on port 7377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601355012746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.EJFHfeSi5RCI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601355015155	Marionette	INFO	Listening on port 7760
+1601355015546	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601355075079	Marionette	INFO	Stopped listening on port 7760
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601355328741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.jXHXB1JSVRIn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601355331317	Marionette	INFO	Listening on port 7896
+1601355331456	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601355372236	Marionette	INFO	Stopped listening on port 7896
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601355559758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.xKIKJ8Q07UcI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601355562272	Marionette	INFO	Listening on port 8018
+1601355562481	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601355598972	Marionette	INFO	Stopped listening on port 8018
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601356026318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\temp\\rust_mozprofile.k11R9qFhpkVG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601356028992	Marionette	INFO	Listening on port 8291
+1601356029045	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: linkProgram: Must have a compiled vertex shader attached.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: useProgram: Program must be linked successfully.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: vertexAttribI?Pointer: `index` (4294967295) must be < MAX_VERTEX_ATTRIBS.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://wappass.baidu.com/static/touch/js/lib/fingerprint.js, line 1: WebGL warning: drawArraysInstanced: The current program is not linked.
+1601356087288	Marionette	INFO	Stopped listening on port 8291
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB50006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
