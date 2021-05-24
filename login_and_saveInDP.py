@@ -55,12 +55,17 @@ results_path=r"D:\AllDowns\results_all.txt"
 
 firefox_path=r"C:\Program Files\Mozilla Firefox\geckodriver.exe"
 
+already_path=r"D:\AllDowns\already_save.txt"
+
+if not os.path.exists(already_path):
+    open(already_path,"a").close()
+
 # 火狐无头版本
 # https://stackoverflow.com/questions/46753393/how-to-make-firefox-headless-programmatically-in-selenium-with-python
 # https://stackoverflow.com/questions/26566799/wait-until-page-is-loaded-with-selenium-webdriver-for-python
 options = Options()
-# options.headless = True
-options.headless=True
+options.headless = True
+# options.headless=False
 
 driver=webdriver.Firefox(options=options,executable_path=firefox_path)
 
@@ -101,12 +106,18 @@ def login():
     if "errno=0" in new_url:
         print("login success!")
 
+def write_done_yet(netdisk_link):
+    with open(already_path,"a",encoding="utf-8") as f:
+        f.write(netdisk_link+"\n")
+    print("one written.")
+
 def open_one_link(netdisk_link,netdisk_passwd):
     driver.get(netdisk_link)
     try:
         errorImg=driver.find_element_by_class_name("error-img")
         if errorImg:
             print("bad link!")
+            write_done_yet(netdisk_link)
             return None
     except selenium.common.exceptions.NoSuchElementException:
         pass
@@ -125,6 +136,8 @@ def open_one_link(netdisk_link,netdisk_passwd):
 
         inputBox.send_keys(Keys.ENTER)
 
+        time.sleep(1)
+
         # 考虑到加载耗时
         # driver.implicitly_wait(9)
 
@@ -138,9 +151,21 @@ def open_one_link(netdisk_link,netdisk_passwd):
         # implicitly_wait有点不太顶用啊...
 
         # time.sleep(2)
+    try:
+        gouxuanBtn=WebDriverWait(driver,max_delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'zbyDdwb')))
+        gouxuanBtn.click()
+    except selenium.common.exceptions.TimeoutException:
+        print("第二种页面，无需勾选直接保存！")
+        pass
+    except selenium.common.exceptions.ElementNotInteractableException:
+        print("没渲染完，稍等片刻")
+        time.sleep(1)
+        gouxuanBtn=WebDriverWait(driver,max_delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'zbyDdwb')))
+        gouxuanBtn.click()
 
-    gouxuanBtn=WebDriverWait(driver,max_delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'zbyDdwb')))
-    gouxuanBtn.click()
+
+
+
 
     # gouxuanBtn=driver.find_element_by_class_name("zbyDdwb")
     # gouxuanBtn.click()
@@ -162,6 +187,12 @@ def open_one_link(netdisk_link,netdisk_passwd):
     # 父节点获取有两种手段，详见：
     # https://blog.csdn.net/huilan_same/article/details/52541680
 
+    # 因为登录之后会自动呈现（最近搜索，所以不如直接选择最近使用那个节点...）
+
+    # # soujiuyingsouBtn=WebDriverWait(driver,max_delay).until(EC.presence_of_element_located((By.XPATH, "//span[@class='save-chk-io']")))
+
+    # 节点是每次登录（并保存至少一次之后才）更新的，艹！
+
     soujiuyingsouBtn=WebDriverWait(driver,max_delay).until(EC.presence_of_element_located((By.XPATH, "//span[@node-path='/搜，就硬搜']/parent::span")))
 
     # soujiuyingsouBtn=driver.find_element_by_xpath("//span[@node-path='/搜，就硬搜']/parent::span")
@@ -176,6 +207,8 @@ def open_one_link(netdisk_link,netdisk_passwd):
 
     # driver.close()
 
+    write_done_yet(netdisk_link)
+
     print("one done.")
 
 def main():
@@ -185,11 +218,16 @@ def main():
     with open(results_path,"r",encoding="utf-8") as f:
         lines=f.readlines()
 
-    lines=[each.strip("\n") for each in lines if bool(each)!=0]
+    lines=[each.strip("\n") for each in lines if each!="\n"]
+
+    with open(already_path,"r",encoding="utf-8") as f:
+        already_links=set(f.readlines())
 
     for each in lines:
         each_dict=yaml.load(each)
         link,passwd=each_dict["netdisk_link"],each_dict["passwd"]
+        if link+"\n" in already_links:
+            continue
         open_one_link(link,passwd)
         time.sleep(5)
 
